@@ -1,0 +1,24 @@
+.xyz
+{
+    height: 400px;
+    width: 500px;
+    margin: 100px 500px;
+    background-color: red;
+    position: relative;
+    background-image: url("image/Mars.jpg");
+    background-size: cover;     /* makes the image cover the entire area */
+    background-position: center; /* centers the image */
+    background-repeat: no-repeat; /* prevents tiling */
+}
+
+
+.text
+{
+    top: 45%;
+    left: 40%;
+    position: absolute;
+    color: yellow;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
